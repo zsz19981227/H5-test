@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="box">
+        <header>
+            <ul class="uls">
+                <li>Tab1</li>
+                <li>Tab2</li>
+                <li>Tab3</li>
+                <li>Tab4</li>
+            </ul>
+        </header>
+        <section>
+            <p class="ps"></p>
+        </section>
+    </div>
+</body>
+<script src="./js/jquery-1.8.3.min.js"></script>
+<script>
+    var one = $('.uls').children().eq(0);
+    $('.ps').html($(one).html());
+    $('.uls li').click(function() {
+        $('.ps').html($(this).html());
+    })
+</script>
+
+</html>
