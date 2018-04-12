@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="box">
+        <header class="Header">
+            <div class="header-one">
+                <a href="javascript:;">北京</a>
+                <p class="p1"><input type="text" placeholder="搜索你想要的车"></p>
+                <p class="p2"></p>
+            </div>
+            <div class="header-two">
+                <ul>
+                    <li>智能排序</li>
+                    <li>品牌</li>
+                    <li>价格</li>
+                    <li>筛选</li>
+                    <li>保卖车</li>
+                </ul>
+            </div>
+        </header>
+        <section></section>
+    </div>
+</body>
+<script src="./js/jquery-1.8.3.min.js"></script>
+<script>
+    $('.header-two li').click(function() {
+        console.log($(this).index())
+    })
+</script>
+
+</html>
