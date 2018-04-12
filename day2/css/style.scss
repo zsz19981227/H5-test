@@ -70,3 +70,34 @@ ol li {
         }
     }
 }
+
+section {
+    width: 100%;
+    .cont {
+        width: 100%;
+        padding: .1rem 0;
+        border-bottom: 1px solid rgb(201, 192, 192);
+        dl {
+            display: flex;
+            dt {
+                flex: 1;
+                text-align: center;
+            }
+            dd {
+                flex: 3;
+                .ee {
+                    color: rgb(245, 143, 10);
+                    span {
+                        font-size: .16rem;
+                    }
+                }
+            }
+        }
+        .qw {
+            margin-left: .8rem;
+            span {
+                color: rgb(245, 143, 10)
+            }
+        }
+    }
+}

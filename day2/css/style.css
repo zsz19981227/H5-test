@@ -77,3 +77,42 @@ ol li {
   text-align: center;
   line-height: .4rem;
 }
+
+section {
+  width: 100%;
+}
+
+section .cont {
+  width: 100%;
+  padding: .1rem 0;
+  border-bottom: 1px solid #c9c0c0;
+}
+
+section .cont dl {
+  display: flex;
+}
+
+section .cont dl dt {
+  flex: 1;
+  text-align: center;
+}
+
+section .cont dl dd {
+  flex: 3;
+}
+
+section .cont dl dd .ee {
+  color: #f58f0a;
+}
+
+section .cont dl dd .ee span {
+  font-size: .16rem;
+}
+
+section .cont .qw {
+  margin-left: .8rem;
+}
+
+section .cont .qw span {
+  color: #f58f0a;
+}
